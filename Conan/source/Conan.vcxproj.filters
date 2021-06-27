@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NhanVat">
+      <UniqueIdentifier>{be2e44d4-bea4-4b10-8bc6-f75b65258d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VuAn">
+      <UniqueIdentifier>{d1d56df6-1a27-4cd8-9d3e-9ae160319ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameQuanLi">
+      <UniqueIdentifier>{bab09daf-0a69-415c-af52-7b842509a607}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NhanVat.h" />
+    <ClInclude Include="GameQuanLi\GameConan.h">
+      <Filter>GameQuanLi</Filter>
+    </ClInclude>
+    <ClInclude Include="NhanVat\Conan.h">
+      <Filter>NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="NhanVat\Gin.h">
+      <Filter>NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="NhanVat\Korn.h">
+      <Filter>NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="NhanVat\NguoiMatQua.h">
+      <Filter>NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="NhanVat\ThanhVienBiAn.h">
+      <Filter>NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="NhanVat\Vodka.h">
+      <Filter>NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="VuAn\VuAn.h">
+      <Filter>VuAn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NhanVat.cpp" />
+    <ClCompile Include="GameQuanLi\GameConan.cpp">
+      <Filter>GameQuanLi</Filter>
+    </ClCompile>
+    <ClCompile Include="NhanVat\Conan.cpp">
+      <Filter>NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="NhanVat\Gin.cpp">
+      <Filter>NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="NhanVat\Korn.cpp">
+      <Filter>NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="NhanVat\NguoiMatQua.cpp">
+      <Filter>NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="NhanVat\ThanhVienBiAn.cpp">
+      <Filter>NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="NhanVat\Vodka.cpp">
+      <Filter>NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="VuAn\VuAn.cpp">
+      <Filter>VuAn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

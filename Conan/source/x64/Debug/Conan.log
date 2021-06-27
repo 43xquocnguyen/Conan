@@ -1,0 +1,6 @@
+﻿  Main.cpp
+D:\Code\My Source Code\VisualStudio\C++ Console\Conan\Conan\Main.cpp(4,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  NhanVat.cpp
+  VuAn.cpp
+  Generating Code...
+  Conan.vcxproj -> D:\Code\My Source Code\VisualStudio\C++ Console\Conan\x64\Debug\Conan.exe
